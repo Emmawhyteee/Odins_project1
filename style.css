@@ -95,16 +95,24 @@ div .section-2 {
 }
 .shift-left {
   padding: 1.5rem;
+  font-size: 36px;
+  font-style: italic;
 }
 .shift-right {
   padding-top: 4rem;
+  font-size: 36px;
+  font-style: italic;
 }
 .section-4 {
   background-color: white;
   display: flex;
   justify-content: center;
   /* width: 100rem; */
-  padding: 2rem;
+  /* padding: 2rem; */
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 10px 24px;
+  margin-top: 10px;
 }
 
 .btn {
@@ -113,14 +121,26 @@ div .section-2 {
   padding: 0.5rem;
   background-color: #3882f6;
   color: white;
-  border-style: none;
+  /* border-style: none; */
+  border-color: white;
   width: 30%;
   border-radius: 4px;
 }
 a {
   text-decoration: none;
 }
-.blue {
-  width: 400px;
-  padding: 2rem #3882f6;
+
+.section-5 {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  height: 30px;
+}
+
+.section-5 > p {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Roboto", arial;
 }
