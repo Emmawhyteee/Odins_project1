@@ -1,18 +1,118 @@
-.flex-container {
-  display: flex;
-  height: 100%;
-}
-html body {
-  height: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 100px;
-  flex: 1;
-  text-align: justify;
+.blueguy {
+  background-color: #1f2937;
+  color: white;
+  height: 65vh;
+  padding: 2rem 15%;
 }
-.three {
-  align-self: flex-start;
+
+.first-flex > li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 8px;
+}
+
+.first-flex {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin-left: 70%;
+}
+#innerguy {
+  padding: 3rem 0 0 1rem;
+  margin: 3% 0%;
+}
+
+p {
+  padding: 1px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  font-family: "Roboto", arial;
+}
+
+#innerguy > .left-side {
+  padding: 0.5rem;
+  text-size-adjust: 48px;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #3882f6;
+  color: white;
+  border-style: none;
+  width: 10%;
+  border-radius: 4px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 13rem 15%;
+}
+
+div .section-2 {
+  background-color: white;
+  display: flex;
+  height: 40vh;
+}
+
+.image2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-2 > h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.sub-2 > figure {
+  display: flex;
+  justify-content: space-evenly;
+}
+.image2 {
+  display: flex;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.shift-left {
+  padding: 1.5rem;
+}
+.shift-right {
+  padding-top: 4rem;
+}
+.section-4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.btn {
+  padding: 0.5rem;
+  background-color: #3882f6;
+  color: white;
+  border-style: none;
+  width: 10%;
+  border-radius: 4px;
+}
+a {
+  text-decoration: none;
 }
