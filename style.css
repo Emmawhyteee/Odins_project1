@@ -120,7 +120,8 @@ div .section-2 {
 .btn {
   display: block;
   justify-content: center;
-  padding: 0.3rem;
+  align-self: center !important;
+  padding: 0.5rem;
   position: relative;
   background-color: #3882f6;
   color: white;
@@ -128,13 +129,13 @@ div .section-2 {
   border-radius: 4px;
   float: right;
   margin-right: 37%;
-  margin-top: 0.3rem;
+  margin-top: -45px;
   margin-bottom: 1.5rem;
 }
 a {
   text-decoration: none;
 }
-~~` ~ .section-5 {
+.section-5 {
   background-color: #1f2937;
   color: white;
   text-align: center;
